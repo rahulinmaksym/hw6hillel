@@ -36,12 +36,11 @@ public class SerialExperimentsString {
 
     public void wordGame() {
         String[] words = {"apple", "orange", "lemon", "banana", "apricot", "avocado" , "broccoli", "carrot", "cherry",
-                "garlic", "grape", "melon", "leak", "kiwi", "mango", "mushroom", "nut", "olive", " pea", "peanut",
+                "garlic", "grape", "melon", "leak", "kiwi", "mango", "mushroom", "nut", "olive", "pea", "peanut",
                 "pear", "pepper", "pineapple", "pumpkin", "potato"};
         Scanner scn = new Scanner(System.in);
         Random random = new Random();
         String word = words[random.nextInt(words.length)];
-        System.out.println(word);
         char[] wordCharArray = word.toCharArray();
         String unknown = "###############";
         char[] unknownCharArray = unknown.toCharArray();
